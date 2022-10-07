@@ -1,0 +1,1037 @@
+.main-options {
+    display: grid;
+    grid-template-columns: repeat(10, calc(92vw / 10));
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: 95vh;
+}
+
+.officer-item {
+    grid-row: 1 / 1;
+    grid-column: 1 / 2;
+    background-color: purple;
+    padding: 5px;
+}
+
+.officer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-officer {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-officer img {
+    width: 20%;
+}
+
+.title-officer {
+    grid-row: 3 / 3;
+}
+
+.duke-item {
+    grid-row: 1 / 2;
+    grid-column: 2 / 3;
+    background-color: pink;
+    padding: 5px;
+}
+
+.duke {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-duke {
+    display: grid;
+    grid-row: 2 / 2;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-duke img {
+    width: 20%;
+}
+
+.title-duke {
+    grid-row: 3 / 3;
+}
+
+.butcher-item {
+    grid-row: 1 / 1;
+    grid-column: 3 / 4;
+    background-color: red;
+    padding: 5px;
+}
+
+.butcher {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-butcher {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-butcher img {
+    width: 20%;
+}
+
+.title-butcher {
+    grid-row: 3 / 3;
+}
+
+.countess-item {
+    grid-row: 1 / 1;
+    grid-column: 4 / 5;
+    background-color: green;
+    padding: 5px;
+}
+
+.countess {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-countess {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-countess img {
+    width: 20%;
+}
+
+.title-countess {
+    grid-row: 3 / 3;
+}
+
+.nurse-item {
+    grid-row: 1 / 1;
+    grid-column: 5 / 6;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.nurse {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-nurse {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-nurse img {
+    width: 20%;
+}
+
+.title-nurse {
+    grid-row: 3 / 3;
+}
+
+.maid-item {
+    grid-row: 1 / 1;
+    grid-column: 6 / 7;
+    background-color: blue;
+    padding: 5px;
+}
+
+.maid {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-maid {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-maid img {
+    width: 20%;
+}
+
+.title-maid {
+    grid-row: 3 / 3;
+}
+
+.dancer-item {
+    grid-row: 1 / 1;
+    grid-column: 7 / 8;
+    background-color: orange;
+    padding: 5px;
+}
+
+.dancer {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-dancer {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-dancer img {
+    width: 20%;
+}
+
+.title-dancer {
+    grid-row: 3 / 3;
+}
+
+.sailor-item {
+    grid-row: 1 / 1;
+    grid-column: 8 / 9;
+    background-color: ghostwhite;
+    padding: 5px;
+}
+
+.sailor {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-sailor {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-sailor img {
+    width: 20%;
+}
+
+.title-sailor {
+    grid-row: 3 / 3;
+}
+
+.florist-item {
+    grid-row: 1 / 1;
+    grid-column: 9 / 10;
+    background-color: brown;
+    padding: 5px;
+}
+
+.florist {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-florist {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-florist img {
+    width: 20%;
+}
+
+.title-florist {
+    grid-row: 3 / 3;
+}
+
+.coachman-item {
+    grid-row: 1 / 1;
+    grid-column: 10 / 11;
+    background-color: gray;
+    padding: 5px;
+}
+
+.coachman {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-coachman {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-coachman img {
+    width: 20%;
+}
+
+.title-coachman {
+    grid-row: 3 / 3;
+}
+
+.parlor-item {
+    grid-row: 2 / 2;
+    grid-column: 1 / 2;
+
+    background-color: purple;
+    padding: 5px;
+}
+
+.parlor {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, purple 15px, transparent 0),
+            radial-gradient(circle at left bottom, purple 15px, transparent 0),
+            radial-gradient(circle at right top, purple 15px, transparent 0),
+            radial-gradient(circle at right bottom, purple 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-parlor {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-parlor img {
+    width: 20%;
+}
+
+.title-parlor {
+    grid-row: 3 / 3;
+}
+
+.market-item {
+    grid-row: 2 / 2;
+    grid-column: 2 / 3;
+    background-color: pink;
+    padding: 5px;
+}
+
+.market {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, pink 15px, transparent 0),
+            radial-gradient(circle at left bottom, pink 15px, transparent 0),
+            radial-gradient(circle at right top, pink 15px, transparent 0),
+            radial-gradient(circle at right bottom, pink 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-market {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-market img {
+    width: 20%;
+}
+
+.title-market {
+    grid-row: 3 / 3;
+}
+
+.library-item {
+    grid-row: 2 / 2;
+    grid-column: 3 / 4;
+    background-color: red;
+    padding: 5px;
+}
+
+.library {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, red 15px, transparent 0),
+            radial-gradient(circle at left bottom, red 15px, transparent 0),
+            radial-gradient(circle at right top, red 15px, transparent 0),
+            radial-gradient(circle at right bottom, red 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-library {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-library img {
+    width: 20%;
+}
+
+.title-library {
+    grid-row: 3 / 3;
+}
+
+.park-item {
+    grid-row: 2 / 2;
+    grid-column: 4 / 5;
+    background-color: green;
+    padding: 5px;
+}
+
+.park {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, green 15px, transparent 0),
+            radial-gradient(circle at left bottom, green 15px, transparent 0),
+            radial-gradient(circle at right top, green 15px, transparent 0),
+            radial-gradient(circle at right bottom, green 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-park {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-park img {
+    width: 20%;
+}
+
+.title-park {
+    grid-row: 3 / 3;
+}
+
+.museum-item {
+    grid-row: 2 / 2;
+    grid-column: 5 / 6;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.museum {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, yellow 15px, transparent 0),
+            radial-gradient(circle at left bottom, yellow 15px, transparent 0),
+            radial-gradient(circle at right top, yellow 15px, transparent 0),
+            radial-gradient(circle at right bottom, yellow 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-museum {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-museum img {
+    width: 20%;
+}
+
+.title-museum {
+    grid-row: 3 / 3;
+}
+
+.harbor-item {
+    grid-row: 2 / 2;
+    grid-column: 6 / 7;
+    background-color: blue;
+    padding: 5px;
+}
+
+.harbor {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, blue 15px, transparent 0),
+            radial-gradient(circle at left bottom, blue 15px, transparent 0),
+            radial-gradient(circle at right top, blue 15px, transparent 0),
+            radial-gradient(circle at right bottom, blue 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-harbor {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-harbor img {
+    width: 20%;
+}
+
+.title-harbor {
+    grid-row: 3 / 3;
+}
+
+.theater-item {
+    grid-row: 2 / 2;
+    grid-column: 7 / 8;
+    background-color: orange;
+    padding: 5px;
+}
+
+.theater {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, orange 15px, transparent 0),
+            radial-gradient(circle at left bottom, orange 15px, transparent 0),
+            radial-gradient(circle at right top, orange 15px, transparent 0),
+            radial-gradient(circle at right bottom, orange 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-theater {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-theater img {
+    width: 20%;
+}
+
+.title-theater {
+    grid-row: 3 / 3;
+}
+
+.plaza-item {
+    grid-row: 2 / 2;
+    grid-column: 8 / 9;
+    background-color: ghostwhite;
+    padding: 5px;
+}
+
+.plaza {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, ghostwhite 15px, transparent 0),
+            radial-gradient(circle at left bottom, ghostwhite 15px, transparent 0),
+            radial-gradient(circle at right top, ghostwhite 15px, transparent 0),
+            radial-gradient(circle at right bottom, ghostwhite 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-plaza {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-plaza img {
+    width: 20%;
+}
+
+.title-plaza {
+    grid-row: 3 / 3;
+}
+
+.railcar-item {
+    grid-row: 2 / 2;
+    grid-column: 9 / 10;
+    background-color: brown;
+    padding: 5px;
+}
+
+.railcar {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, brown 15px, transparent 0),
+            radial-gradient(circle at left bottom, brown 15px, transparent 0),
+            radial-gradient(circle at right top, brown 15px, transparent 0),
+            radial-gradient(circle at right bottom, brown 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-railcar {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-railcar img {
+    width: 20%;
+}
+
+.title-railcar {
+    grid-row: 3 / 3;
+}
+
+.racetrack-item {
+    grid-row: 2 / 2;
+    grid-column: 10 / 11;
+    background-color: gray;
+    padding: 5px;
+}
+
+.racetrack {
+    background-color: white;
+    background-image:
+            radial-gradient(circle at left top, gray 15px, transparent 0),
+            radial-gradient(circle at left bottom, gray 15px, transparent 0),
+            radial-gradient(circle at right top, gray 15px, transparent 0),
+            radial-gradient(circle at right bottom, gray 15px, transparent 0);
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-racetrack {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-racetrack img {
+    width: 20%;
+}
+
+.title-racetrack {
+    grid-row: 3 / 3;
+}
+
+.knife-item {
+    grid-row: 3 / 3;
+    grid-column: 1 / 2;
+
+    background-color: purple;
+    padding: 5px;
+}
+
+.knife {
+    background-color: white;
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-knife {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-knife img {
+    width: 20%;
+}
+
+.title-knife {
+    grid-row: 3 / 3;
+}
+
+.crossbow-item {
+    grid-row: 3 / 3;
+    grid-column: 2 / 3;
+    background-color: pink;
+    padding: 5px;
+}
+
+.crossbow {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-crossbow {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-crossbow img {
+    width: 20%;
+}
+
+.title-crossbow {
+    grid-row: 3 / 3;
+}
+
+.poison-item {
+    grid-row: 3 / 3;
+    grid-column: 3 / 4;
+    background-color: red;
+    padding: 5px;
+}
+
+.poison {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-poison {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-poison img {
+    width: 20%;
+}
+
+.title-poison {
+    grid-row: 3 / 3;
+}
+
+.sword-item {
+    grid-row: 3 / 3;
+    grid-column: 4 / 5;
+    background-color: green;
+    padding: 5px;
+}
+
+.sword {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-sword {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-sword img {
+    width: 20%;
+}
+
+.title-sword {
+    grid-row: 3 / 3;
+}
+
+.blowgun-item {
+    grid-row: 3 / 3;
+    grid-column: 5 / 6;
+    background-color: yellow;
+    padding: 5px;
+}
+
+.blowgun {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-blowgun {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-blowgun img {
+    width: 20%;
+}
+
+.title-blowgun {
+    grid-row: 3 / 3;
+}
+
+.rifle-item {
+    grid-row: 3 / 3;
+    grid-column: 6 / 7;
+    background-color: blue;
+    padding: 5px;
+}
+
+.rifle {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-rifle {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-rifle img {
+    width: 20%;
+}
+
+.title-rifle {
+    grid-row: 3 / 3;
+}
+
+.pistol-item {
+    grid-row: 3 / 3;
+    grid-column: 7 / 8;
+    background-color: orange;
+    padding: 5px;
+}
+
+.pistol {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-pistol {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-pistol img {
+    width: 20%;
+}
+
+.title-pistol {
+    grid-row: 3 / 3;
+}
+
+.candlestick-item {
+    grid-row: 3 / 3;
+    grid-column: 8 / 9;
+    background-color: ghostwhite;
+    padding: 5px;
+}
+
+.candlestick {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-candlestick {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-candlestick img {
+    width: 20%;
+}
+
+.title-candlestick {
+    grid-row: 3 / 3;
+}
+
+.hammer-item {
+    grid-row: 3 / 3;
+    grid-column: 9 / 10;
+    background-color: brown;
+    padding: 5px;
+}
+
+.hammer {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-hammer {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-hammer img {
+    width: 20%;
+}
+
+.title-hammer {
+    grid-row: 3 / 3;
+}
+
+.bow-item {
+    grid-row: 3 / 3;
+    grid-column: 10 / 11;
+    background-color: gray;
+    padding: 5px;
+}
+
+.bow {
+    background-color: white;
+
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 15% 70% 15%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-bow {
+    display: grid;
+    grid-row: 1 / 1;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-bow img {
+    width: 20%;
+}
+
+.title-bow {
+    grid-row: 3 / 3;
+}

@@ -1,0 +1,9 @@
+.footer-options {
+    display: grid;
+    grid-template-columns: repeat(10, calc(92vw / 10));
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}

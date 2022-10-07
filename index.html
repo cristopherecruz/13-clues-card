@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>13 - Clues</title>
+
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.png">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <link href="./assets/css/reset.css" rel="stylesheet">
+    <link href="./assets/css/style.css" rel="stylesheet">
+    <link href="./assets/css/header.css" rel="stylesheet">
+    <link href="./assets/css/main.css" rel="stylesheet">
+    <link href="./assets/css/footer.css" rel="stylesheet">
+</head>
+    <body class="app">
+        <header class="header-container">
+            <section class="header-options">
+                <div class="persons-item">
+                    <div class="persons">
+                        <p>Pessoas</p>
+                        <div class="card-masculino">
+                            <img src="./assets/img/masculino-100x100.png" alt="Avatar">
+                            <p>Homem</p>
+                        </div>
+                        <div class="card-feminino">
+                            <img src="./assets/img/feminino-100x100.png" alt="Avatar">
+                            <p>Mulher</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="locations-item">
+                    <div class="locations">
+                        <p>Lugares</p>
+                        <div class="card-casa">
+                            <img src="./assets/img/casa-100x100.png" alt="Avatar">
+                            <p>Fechado</p>
+                        </div>
+                        <div class="card-tree">
+                            <img src="./assets/img/tree-100x100.png" alt="Avatar">
+                            <p>Aberto</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="weapons-item">
+                    <div class="weapons">
+                        <p>Armas</p>
+                        <div class="card-axe">
+                            <img src="./assets/img/axe-100x100.png" alt="Avatar">
+                            <p>Perto</p>
+                        </div>
+                        <div class="card-arrow">
+                            <img src="./assets/img/arrow-100x100.png" alt="Avatar">
+                            <p>Longo</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <main class="main-container">
+            <section class="main-options">
+                <div class="officer-item">
+                    <label for="officer">
+                        <div class="officer">
+                            <div class="card-officer">
+                                <img src="./assets/img/masculino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="officer" name="officer" value="officer">
+                            </div>
+                            <p class="title-officer">Oficial</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="duke-item">
+                    <label for="duke">
+                        <div class="duke">
+                            <div class="card-officer">
+                                <img src="./assets/img/masculino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="duke" name="duke" value="duke">
+                            </div>
+                            <p class="title-duke">Duque</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="butcher-item">
+                    <label for="butcher">
+                        <div class="butcher">
+                            <div class="card-butcher">
+                                <img src="./assets/img/masculino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="butcher" name="butcher" value="butcher">
+                            </div>
+                            <p class="title-butcher">Açougueiro</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="countess-item">
+                    <label for="countess">
+                        <div class="countess">
+                            <div class="card-countess">
+                                <img src="./assets/img/feminino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="countess" name="countess" value="countess">
+                            </div>
+                            <p class="title-countess">Condessa</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="nurse-item">
+                    <label for="nurse">
+                        <div class="nurse">
+                            <div class="card-nurse">
+                                <img src="./assets/img/feminino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="nurse" name="nurse" value="nurse">
+                            </div>
+                            <p class="title-nurse">Enfermeira</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="maid-item">
+                    <label for="maid">
+                        <div class="maid">
+                            <div class="card-maid">
+                                <img src="./assets/img/feminino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="maid" name="maid" value="maid">
+                            </div>
+                            <p class="title-maid">Caseira</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="dancer-item">
+                    <label for="dancer">
+                        <div class="dancer">
+                            <div class="card-dancer">
+                                <img src="./assets/img/feminino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="dancer" name="dancer" value="dancer">
+                            </div>
+                            <p class="title-dancer">Dançarina</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="sailor-item">
+                    <label for="sailor">
+                        <div class="sailor">
+                            <div class="card-sailor">
+                                <img src="./assets/img/masculino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="sailor" name="sailor" value="sailor">
+                            </div>
+                            <p class="title-sailor">Marinheiro</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="florist-item">
+                    <label for="florist">
+                        <div class="florist">
+                            <div class="card-florist">
+                                <img src="./assets/img/feminino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="florist" name="florist" value="florist">
+                            </div>
+                            <p class="title-sailor">Florista</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="coachman-item">
+                    <label for="coachman">
+                        <div class="coachman">
+                            <div class="card-coachman">
+                                <img src="./assets/img/masculino-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="coachman" name="coachman" value="coachman">
+                            </div>
+                            <p class="title-coachman">Cocheiro</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="parlor-item">
+                    <label for="parlor">
+                        <div class="parlor">
+                            <div class="card-parlor">
+                                <img src="./assets/img/casa-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="parlor" name="parlor" value="parlor">
+                            </div>
+                            <p class="title-parlor">Salão</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="market-item">
+                    <label for="market">
+                        <div class="market">
+                            <div class="card-market">
+                                <img src="./assets/img/tree-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="market" name="market" value="market">
+                            </div>
+                            <p class="title-market">Mercado</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="library-item">
+                    <label for="library">
+                        <div class="library">
+                            <div class="card-library">
+                                <img src="./assets/img/casa-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="library" name="library" value="library">
+                            </div>
+                            <p class="title-library">Biblioteca</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="park-item">
+                    <label for="park">
+                        <div class="park">
+                            <div class="card-park">
+                                <img src="./assets/img/tree-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="park" name="park" value="park">
+                            </div>
+                            <p class="title-park">Parque</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="museum-item">
+                    <label for="museum">
+                        <div class="museum">
+                            <div class="card-museum">
+                                <img src="./assets/img/casa-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="museum" name="museum" value="museum">
+                            </div>
+                            <p class="title-museum">Museu</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="harbor-item">
+                    <label for="harbor">
+                        <div class="harbor">
+                            <div class="card-harbor">
+                                <img src="./assets/img/tree-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="harbor" name="harbor" value="harbor">
+                            </div>
+                            <p class="title-harbor">Porto</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="theater-item">
+                    <label for="theater">
+                        <div class="theater">
+                            <div class="card-theater">
+                                <img src="./assets/img/casa-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="theater" name="theater" value="theater">
+                            </div>
+                            <p class="title-theater">Teatro</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="plaza-item">
+                    <label for="plaza">
+                        <div class="plaza">
+                            <div class="card-plaza">
+                                <img src="./assets/img/tree-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="plaza" name="plaza" value="plaza">
+                            </div>
+                            <p class="title-plaza">Praça</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="railcar-item">
+                    <label for="railcar">
+                        <div class="railcar">
+                            <div class="card-railcar">
+                                <img src="./assets/img/casa-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="railcar" name="railcar" value="railcar">
+                            </div>
+                            <p class="title-railcar">Bonde</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="racetrack-item">
+                    <label for="racetrack">
+                        <div class="racetrack">
+                            <div class="card-racetrack">
+                                <img src="./assets/img/tree-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="racetrack" name="racetrack" value="racetrack">
+                            </div>
+                            <p class="title-racetrack">Circuito</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="knife-item">
+                    <label for="knife">
+                        <div class="knife">
+                            <div class="card-knife">
+                                <img src="./assets/img/axe-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="knife" name="knife" value="knife">
+                            </div>
+                            <p class="title-knife">Faca</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="crossbow-item">
+                    <label for="crossbow">
+                        <div class="crossbow">
+                            <div class="card-crossbow">
+                                <img src="./assets/img/arrow-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="crossbow" name="crossbow" value="crossbow">
+                            </div>
+                            <p class="title-crossbow">Besta</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="poison-item">
+                    <label for="poison">
+                        <div class="poison">
+                            <div class="card-poison">
+                                <img src="./assets/img/axe-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="poison" name="poison" value="poison">
+                            </div>
+                            <p class="title-poison">Veneno</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="sword-item">
+                    <label for="sword">
+                        <div class="sword">
+                            <div class="card-sword">
+                                <img src="./assets/img/axe-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="sword" name="sword" value="sword">
+                            </div>
+                            <p class="title-sword">Espada</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="blowgun-item">
+                    <label for="blowgun">
+                        <div class="blowgun">
+                            <div class="card-blowgun">
+                                <img src="./assets/img/arrow-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="blowgun" name="blowgun" value="blowgun">
+                            </div>
+                            <p class="title-blowgun">Zabaratana</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="rifle-item">
+                    <label for="rifle">
+                        <div class="rifle">
+                            <div class="card-rifle">
+                                <img src="./assets/img/arrow-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="rifle" name="rifle" value="rifle">
+                            </div>
+                            <p class="title-rifle">Espingarda</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="pistol-item">
+                    <label for="pistol">
+                        <div class="pistol">
+                            <div class="card-pistol">
+                                <img src="./assets/img/arrow-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="pistol" name="pistol" value="pistol">
+                            </div>
+                            <p class="title-pistol">Pistola</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="candlestick-item">
+                    <label for="candlestick">
+                        <div class="candlestick">
+                            <div class="card-candlestick">
+                                <img src="./assets/img/axe-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="candlestick" name="candlestick" value="candlestick">
+                            </div>
+                            <p class="title-candlestick">Candelabro</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="hammer-item">
+                    <label for="hammer">
+                        <div class="hammer">
+                            <div class="card-hammer">
+                                <img src="./assets/img/axe-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="hammer" name="hammer" value="hammer">
+                            </div>
+                            <p class="title-hammer">Martelo</p>
+                        </div>
+                    </label>
+                </div>
+                <div class="bow-item">
+                    <label for="bow">
+                        <div class="bow">
+                            <div class="card-bow">
+                                <img src="./assets/img/arrow-100x100.png" alt="Avatar">
+                            </div>
+                            <div>
+                                <input type="checkbox" id="bow" name="bow" value="bow">
+                            </div>
+                            <p class="title-bow">Arco</p>
+                        </div>
+                    </label>
+                </div>
+            </section>
+        </main>
+        <footer class="footer-container">
+            <section class="footer-options">
+                <p>Roxo</p>
+                <p>Rosa</p>
+                <p>Vermelho</p>
+                <p>Verde</p>
+                <p>Amarelo</p>
+                <p>Azul</p>
+                <p>Laranja</p>
+                <p>Branco</p>
+                <p>Marrom</p>
+                <p>Cinza</p>
+            </section>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,113 @@
+.header-options {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: 90vh;
+}
+
+.persons-item {
+    grid-row: 1 / 1;
+}
+
+.persons {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 40% 40%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.locations {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 40% 40%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.weapons {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: 20% 40% 40%;
+    height: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.locations-item {
+    grid-row: 2 / 2;
+    border-top: 2px solid black;
+}
+
+.weapons-item {
+    grid-row: 3 / 3;
+    border-top: 2px solid black;
+}
+
+.card-masculino {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-masculino img {
+    height: 60%;
+    width: 60%;
+}
+
+.card-feminino {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-feminino img {
+    height: 60%;
+    width: 60%;
+}
+
+.card-casa {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-casa img {
+    height: 60%;
+    width: 60%;
+}
+
+.card-tree {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-tree img {
+    height: 60%;
+    width: 60%;
+}
+
+.card-axe {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-axe img {
+    height: 60%;
+    width: 60%;
+}
+
+.card-arrow {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.card-arrow img {
+    height: 60%;
+    width: 60%;
+}
